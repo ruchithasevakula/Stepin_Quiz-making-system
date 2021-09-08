@@ -10,33 +10,13 @@ BUILD = build
 # All source code files
 SRC = main.c\
 src/Quiz.c\
-src/align_center.c\
-src/corner_solve.c\
-src/get_set_functions.c\
-src/initialize.c\
-src/layer_first.c\
-src/layer_second.c\
-src/layer_third.c\
-src/operations.c\
-src/plus_bottom.c\
-src/plus_top.c\
-src/solve_all.c
+src/QuizMaking.c\
 
 
 # All test source files
 TEST_SRC = src/Quiz.c\
 src/align_center.c\
-src/corner_solve.c\
-src/get_set_functions.c\
-src/initialize.c\
-src/layer_first.c\
-src/layer_second.c\
-src/layer_third.c\
-src/operations.c\
-src/plus_bottom.c\
-src/plus_top.c\
-src/solve_all.c\
-test/test_quiz_making.c\
+ctest/test_quiz_making.c\
 unity/unity.c\
 
 # Covrage source file
