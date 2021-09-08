@@ -26,3 +26,24 @@ int main()
      printf("\n\t\t > press H for help            ");
      printf("\n\t\t > press Q to quit             ");
      printf("\n\t\t________________________________________\n\n");
+     
+     choice=toupper(getch());
+     if (choice=='V')
+	{
+	show_record();
+	goto mainhome;
+	}
+     else if (choice=='H')
+	{
+	help();getch();
+	goto mainhome;
+	}
+	else if (choice=='R')
+	{reset_score();
+	getch();
+	goto mainhome;}
+	else if (choice=='Q')
+	exit(1);
+    else if(choice=='S')
+    {
+     system("cls");
